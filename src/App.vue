@@ -1,11 +1,15 @@
 <script lang="ts">
 import Header from './components/Header.vue';
 import Link from './components/Link.vue';
+import Paragraph from './components/Paragraph.vue';
+import Cube from './components/Cube.vue';
 
 export default {
   components: {
     Header,
-    Link
+    Link,
+    Paragraph,
+    Cube
   }
 }
 
@@ -14,19 +18,25 @@ export default {
 
 <template>
 
-  <div class="">
+  <div class="flex flex-col justify-center p-4 sm:p-[100px] lg:p-[25%] h-[100dvh] font-inter bg-[#222] text-[#eee]">
     
-    <h3 class="text-4xl">Hello world!</h3>
+    <div class="mb-8 flex gap-4 items-center">
+      <h3 class="text-4xl">Hello world!</h3>
+      <div class="relative w-[30px] h-[30px]">
 
-    <p>My name is Vittorio Renna and I am <Link href="https://www.w3schools.com/whatis/whatis_fullstack.asp">Fullstack Web Developer</Link>, with a background in the Neuroscience.</p>
+        <Cube />
+      </div>
+    </div>
 
-    <p>I’m currently working at Gility, and I’m an active contributor of Schrödinger Hat.</p>
+    <Paragraph>My name is Vittorio Renna and I am <Link href="https://www.w3schools.com/whatis/whatis_fullstack.asp">Fullstack Web Developer</Link>, with a background in the Neuroscience.</Paragraph>
 
-    <p>In my current work and personal projects, I’m mainly using Nextjs, Prisma and Vue3, but I have also experience in other tools as you can see from my GitHub.</p>
+    <Paragraph>I’m currently working at <Link href="https://www.gility.it/">Gility</Link>, and I’m an active contributor of <Link href="https://www.schrodinger-hat.it/">Schrödinger Hat</Link>.</Paragraph>
 
-    <p>Beside programming, I also love going on long hikes in the mountains, enjoy northern European literature, and drink good IPA beers.</p>
+    <Paragraph>In my current work and personal projects, I’m mainly using <Link href="https://nextjs.org/">Nextjs</Link>, <Link href="https://www.prisma.io/">Prisma</Link> and <Link href="https://vuejs.org/">Vue</Link>, but I have also experience in other tools as you can see from my <Link href="https://github.com/rennavittorio">GitHub</Link>.</Paragraph>
 
-    <p>You can add me on Linkedin, chat with me on Discord or follow me on Twitter X if you want to talk about one of the above topic!</p>
+    <Paragraph>Beside programming, I also love going on long hikes in the mountains, enjoy northern European literature, and drink good IPA beers.</Paragraph>
+
+    <Paragraph>You can add me on <Link href="https://www.linkedin.com/in/rennavittorio/">LinkedIn</Link>, chat with me on <Link href="https://discordapp.com/users/reindev#0832">Discord</Link> or follow me on <span class="line-through">Twitter</span> <Link href="https://twitter.com/reindev_js">X</Link> if you want to talk about one of the above topic!</Paragraph>
 
   </div>
 

@@ -1,8 +1,10 @@
 <template>
 
-  <a class="underline text-blue-500" :href="href" target="_blank">
-    <slot></slot>
-  </a>
+  <div class="relative inline-flex group">
+    <a class="underline text-green-500" :href="href" target="_blank">
+      <slot></slot>
+    </a>
+  </div>
 
 </template>
 
@@ -10,7 +12,7 @@
 
 export default {
   props: {
-    href: String
+    href: {type: String, required: true}
   }
 }
 

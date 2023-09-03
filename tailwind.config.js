@@ -5,7 +5,13 @@ export default {
       "./src/**/*.{vue,js,ts,jsx,tsx}",
     ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        manrope: ['Manrope', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
+        ubuntumono: ['Ubuntu Mono', 'monospace']
+      }
+    },
   },
   plugins: [],
 }
