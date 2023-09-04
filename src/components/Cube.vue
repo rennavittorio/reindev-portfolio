@@ -1,5 +1,5 @@
 <template>
-  <div class="cube absolute w-[25px] h-[25px] bg-green-500">
+  <div class="cube rounded-md absolute w-[25px] h-[25px] bg-green-500">
 
   </div>
 </template>

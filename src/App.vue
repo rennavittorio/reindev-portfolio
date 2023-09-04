@@ -18,7 +18,7 @@ export default {
 
 <template>
 
-  <div class="flex flex-col justify-center p-4 sm:p-[100px] lg:p-[25%] h-[100dvh] font-inter bg-[#222] text-[#eee]">
+  <div class="flex flex-col justify-center p-4 sm:p-[100px] lg:p-[25%] h-[100dvh] font-inter bg-[#ddd] text-[#222]">
     
     <div class="mb-8 flex gap-4 items-center">
       <h3 class="text-4xl">Hello world!</h3>
@@ -28,7 +28,7 @@ export default {
       </div>
     </div>
 
-    <Paragraph>My name is Vittorio Renna and I am <Link href="https://www.w3schools.com/whatis/whatis_fullstack.asp">Fullstack Web Developer</Link>, with a background in the Neuroscience.</Paragraph>
+    <Paragraph>My name is Vittorio Renna and I am Developer with a background in the Neuroscience.</Paragraph>
 
     <Paragraph>I’m currently working at <Link href="https://www.gility.it/">Gility</Link>, and I’m an active contributor of <Link href="https://www.schrodinger-hat.it/">Schrödinger Hat</Link>.</Paragraph>
 
