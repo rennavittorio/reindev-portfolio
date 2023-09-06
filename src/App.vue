@@ -1,13 +1,11 @@
 <script lang="ts">
-import Header from './components/Header.vue';
-import Link from './components/Link.vue';
+import CustomLink from './components/CustomLink.vue';
 import Paragraph from './components/Paragraph.vue';
 import Cube from './components/Cube.vue';
 
 export default {
   components: {
-    Header,
-    Link,
+    CustomLink,
     Paragraph,
     Cube
   }
@@ -30,13 +28,13 @@ export default {
   
       <Paragraph>My name is Vittorio Renna and I am Developer with a background in the Neuroscience.</Paragraph>
   
-      <Paragraph>I’m currently working at <Link href="https://www.gility.it/">Gility</Link>, and I’m an active contributor in the Open Source Community.</Paragraph>
+      <Paragraph>I’m currently working at <CustomLink href="https://www.gility.it/">Gility</CustomLink>, and I’m an active contributor in the Open Source Community.</Paragraph>
   
-      <Paragraph>In my current work and personal projects, I’m mainly using <Link href="https://nextjs.org/">Nextjs</Link>, <Link href="https://www.prisma.io/">Prisma</Link> and <Link href="https://vuejs.org/">Vue</Link>, but I have also experience in other tools as you can see from my <Link href="https://github.com/rennavittorio">GitHub</Link>.</Paragraph>
+      <Paragraph>In my current work and personal projects, I’m mainly using <CustomLink href="https://nextjs.org/">Nextjs</CustomLink>, <CustomLink href="https://www.prisma.io/">Prisma</CustomLink> and <CustomLink href="https://vuejs.org/">Vue</CustomLink>, but I have also experience in other tools as you can see from my <CustomLink href="https://github.com/rennavittorio">GitHub</CustomLink>.</Paragraph>
   
       <Paragraph>Beside programming, I also love going on long hikes in the mountains, enjoy northern European literature, and drink good IPA beers.</Paragraph>
   
-      <Paragraph>You can add me on <Link href="https://www.linkedin.com/in/rennavittorio/">LinkedIn</Link>, chat with me on <Link href="https://discordapp.com/users/reindev#0832">Discord</Link> or follow me on <span class="line-through">Twitter</span> <Link href="https://twitter.com/reindevtsx">X</Link> if you want to talk about one of the above topic!</Paragraph>
+      <Paragraph>You can add me on <CustomLink href="https://www.linkedin.com/in/rennavittorio/">LinkedIn</CustomLink>, chat with me on <CustomLink href="https://discordapp.com/users/reindev#0832">Discord</CustomLink> or follow me on <span class="line-through">Twitter</span> <CustomLink href="https://twitter.com/reindevtsx">X</CustomLink> if you want to talk about one of the above topic!</Paragraph>
 
     </div>
 
