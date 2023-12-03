@@ -1,13 +1,13 @@
 <script lang="ts">
 import CustomLink from './components/CustomLink.vue';
 import Paragraph from './components/Paragraph.vue';
-import Cube from './components/Cube.vue';
+import CubeComponent from './components/CubeComponent.vue';
 
 export default {
   components: {
     CustomLink,
     Paragraph,
-    Cube
+    Cube: CubeComponent
   }
 }
 
