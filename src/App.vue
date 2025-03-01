@@ -25,9 +25,8 @@ export default {
       </div>
 
       <Paragraph
-        >My name is
-        <b>Vittorio Renna</b>
-        and I am Developer with a background in the Neuroscience.</Paragraph
+        >I&apos;m <b>Vittorio Renna</b>, a Developer with a background in the
+        Neuroscience.</Paragraph
       >
 
       <Paragraph
