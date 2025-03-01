@@ -26,7 +26,7 @@ export default {
 
       <Paragraph
         >I&apos;m <b>Vittorio Renna</b>, a Developer with a background in the
-        Neuroscience.</Paragraph
+        Neuroscience</Paragraph
       >
 
       <Paragraph
