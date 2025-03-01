@@ -32,8 +32,7 @@ export default {
       <Paragraph
         >I’m currently working at
         <b><CustomLink href="https://www.gility.it/">Gility</CustomLink></b
-        >, and I’m an active contributor in the Open Source
-        Community.</Paragraph
+        >, and I’m an active contributor in the Open Source Community</Paragraph
       >
 
       <Paragraph
@@ -43,13 +42,14 @@ export default {
           <CustomLink href="https://www.prisma.io/">Prisma</CustomLink> and
           <CustomLink href="https://vuejs.org/">Vue</CustomLink> </b
         >, but I have also experience in other tools as you can see from my
-        <CustomLink href="https://github.com/rennavittorio">GitHub</CustomLink
-        >.</Paragraph
+        <CustomLink href="https://github.com/rennavittorio"
+          >GitHub</CustomLink
+        ></Paragraph
       >
 
       <Paragraph
         >Beside programming, I also love going on long hikes in the mountains,
-        enjoy northern European literature, and drink good IPA beers.</Paragraph
+        enjoy northern European literature, and drink good IPA beers</Paragraph
       >
 
       <Paragraph
